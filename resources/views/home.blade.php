@@ -26,6 +26,14 @@
         </center>
     </div>
 
+    <div class="panelstatus">
+
+    </div>
+
+    <div class="friends">
+
+    </div>
+
 </div>
 @endsection
 
