@@ -13,17 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     </head>
     <body>
-        
-            <!-- @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif -->
+    @guest
 
             <div class="photo"></div>
             <div class="darkness"></div>
@@ -42,4 +32,9 @@
                 </div>
             </div>
     </body>
+    @else
+    <script language="JavaScript"> 
+window.location="/home"; 
+</script>
+     @endguest
 </html>
