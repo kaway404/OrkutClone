@@ -7,4 +7,4 @@ Img Preview
 
 ![alt text](https://raw.githubusercontent.com/kaway404/OrkutClone/master/apresentar/2.png)
 
-![alt text](https://raw.githubusercontent.com/kaway404/OrkutClone/master/apresentar/3.png)
+![alt text](https://raw.githubusercontent.com/kaway404/OrkutClone/master/apresentar/3.5.png)
