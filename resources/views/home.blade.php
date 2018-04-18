@@ -1,3 +1,9 @@
+@guest
+
+
+
+@else
+
 @extends('layouts.app')
 
 @section('content')
@@ -16,9 +22,11 @@
             <img src="/img/avatar/{{ Auth::user()->photo }}">
         </div>
         <center>
-            <p>{{ Auth::user()->name }}</p>
+            <a href="/profile/{{ Auth::user()->id }}"><p>{{ Auth::user()->name }}</p></a>
         </center>
     </div>
 
 </div>
 @endsection
+
+@endguest

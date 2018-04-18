@@ -115,10 +115,6 @@ body{
     width: 100%;
 }
 
-.container{
-    width: 970px !important;
-}
-
 .links{
     position: absolute;
     width: 480px;
