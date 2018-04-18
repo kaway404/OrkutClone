@@ -99,6 +99,7 @@ body{
     height: 41px;
     background: #94bbf4 !important;
     color: #fff !important;
+    z-index: 50000;
 }
 
 .navbar-brand{
