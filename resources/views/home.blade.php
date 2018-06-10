@@ -15,7 +15,10 @@
             <button>Perfl</button>
             <button>Comunidades</button>
         </div>
+
+
     </div>
+
 
     <div id="panelinfo">
         <div id="photo">

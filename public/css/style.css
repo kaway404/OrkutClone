@@ -3,6 +3,10 @@
     outline: none;
 }
 
+html{
+    background: #dae5ee !important;
+}
+
 body{
     background: #000 !important;
 }
