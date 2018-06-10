@@ -21,6 +21,11 @@
         <div id="photo">
             <img src="/img/avatar/{{ Auth::user()->photo }}">
         </div>
+        <div id="photo-hover">
+            <center>
+                <p style="position: absolute;color: #fff; bottom: 0; font-size: 18px;">Mudar foto de perfil</p>
+            </center>
+        </div>
         <center>
             <a href="/profile/{{ Auth::user()->id }}"><p>{{ Auth::user()->name }}</p></a>
         </center>
@@ -30,9 +35,6 @@
 
     </div>
 
-    <div class="friends">
-
-    </div>
 
 </div>
 @endsection

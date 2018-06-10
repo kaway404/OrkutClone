@@ -14,6 +14,9 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <link href="/css/style.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="/js/uikit.min.js"></script>
+    <script src="/js/uikit-icons.js"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
